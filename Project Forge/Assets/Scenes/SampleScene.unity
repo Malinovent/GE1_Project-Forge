@@ -1005,6 +1005,7 @@ GameObject:
   - component: {fileID: 936725554}
   - component: {fileID: 936725556}
   - component: {fileID: 936725555}
+  - component: {fileID: 936725557}
   m_Layer: 5
   m_Name: Score Text
   m_TagString: Untagged
@@ -1131,6 +1132,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 936725553}
   m_CullTransparentMesh: 1
+--- !u!114 &936725557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936725553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9376ae5ae45e2514aaabfef2c77a155e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PointageUI
+  text: {fileID: 936725555}
 --- !u!1 &1090645658
 GameObject:
   m_ObjectHideFlags: 0
@@ -1143,6 +1157,7 @@ GameObject:
   - component: {fileID: 1090645660}
   - component: {fileID: 1090645659}
   - component: {fileID: 1090645662}
+  - component: {fileID: 1090645663}
   m_Layer: 0
   m_Name: Ennemi
   m_TagString: Enemy
@@ -1180,7 +1195,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1284,6 +1299,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Vie
   vieMax: 5
+--- !u!114 &1090645663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090645658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cdae0e65eb1c85418e1a148309160c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Pointage
+  points: 5
+  pointageUI: {fileID: 936725557}
 --- !u!1 &1092076762
 GameObject:
   m_ObjectHideFlags: 0
