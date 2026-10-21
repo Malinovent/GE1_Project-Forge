@@ -3,7 +3,7 @@ using UnityEngine;
 public class Vie : MonoBehaviour
 {
     [SerializeField] private int vieMax = 5;
-    
+
     private int vieActuelle;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
