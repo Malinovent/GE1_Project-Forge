@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8614617258692071091}
   - component: {fileID: 3442269175744338190}
   - component: {fileID: 4814277321269337541}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Balle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 3853564361922745723}
   - component: {fileID: 2694140188231197145}
   - component: {fileID: 4358040675762129473}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7719105831004066450
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 45476176131245612, guid: 63594055c476893408f4790f1c1775aa, type: 3}
+      propertyPath: m_Name
+      value: Ennemi_1 Bleu
+      objectReference: {fileID: 0}
+    - target: {fileID: 190395845112670576, guid: 63594055c476893408f4790f1c1775aa, type: 3}
+      propertyPath: vitesse
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 291419411695478861, guid: 63594055c476893408f4790f1c1775aa, type: 3}
+      propertyPath: points
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1789658068111043255, guid: 63594055c476893408f4790f1c1775aa, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2129301756190116777, guid: 63594055c476893408f4790f1c1775aa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2129301756190116777, guid: 63594055c476893408f4790f1c1775aa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2129301756190116777, guid: 63594055c476893408f4790f1c1775aa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2129301756190116777, guid: 63594055c476893408f4790f1c1775aa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2129301756190116777, guid: 63594055c476893408f4790f1c1775aa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2129301756190116777, guid: 63594055c476893408f4790f1c1775aa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2129301756190116777, guid: 63594055c476893408f4790f1c1775aa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2129301756190116777, guid: 63594055c476893408f4790f1c1775aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2129301756190116777, guid: 63594055c476893408f4790f1c1775aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2129301756190116777, guid: 63594055c476893408f4790f1c1775aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7024715452916194777, guid: 63594055c476893408f4790f1c1775aa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1181947249794005920, guid: a969f3308d4713449a7f6478ce5ad456, type: 3}
+    - target: {fileID: 7835011571281608536, guid: 63594055c476893408f4790f1c1775aa, type: 3}
+      propertyPath: vieMax
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 63594055c476893408f4790f1c1775aa, type: 3}

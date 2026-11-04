@@ -12,11 +12,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Joueur
+  - Ennemi
+  - BalleJoueur
+  - BalleEnnemi
+  - Danger
   - 
   - 
   - 

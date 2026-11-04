@@ -404,9 +404,10 @@ GameObject:
   - component: {fileID: 409777654}
   - component: {fileID: 409777655}
   - component: {fileID: 409777656}
-  m_Layer: 0
+  - component: {fileID: 409777657}
+  m_Layer: 6
   m_Name: Joueur
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -576,6 +577,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &409777657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409777650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 981df3d5171662840b1b3b4e4d0e55ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Vie
+  vieMax: 3
 --- !u!1 &455405594
 GameObject:
   m_ObjectHideFlags: 0
@@ -1047,8 +1061,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c80da8ff23397941b4a5e435fa03507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spawner
-  spawnObjet: {fileID: 6388031635843371031, guid: 2857545495f73fb4e894f99b44693256, type: 3}
-  spawnInterval: 5
+  spawnObjets:
+  - {fileID: 7763736868703638718, guid: 848dff55bbcda834baa10a04d1de6a8d, type: 3}
+  - {fileID: 4132383977155769168, guid: c5458d396fb481d47a14379ca16b7926, type: 3}
+  - {fileID: 2171528675835475601, guid: bfa2d9bbfaf28834684bb24e9c20a32b, type: 3}
+  - {fileID: 2313066474011593981, guid: e3793a39fd0be3349a69707d6a04ad0a, type: 3}
+  - {fileID: 4020545258494492749, guid: 4cb46bbadbcc81745a7843239dee8b39, type: 3}
+  - {fileID: 7909689115752937337, guid: b61b5157257ef464e9826d975f4085ce, type: 3}
+  - {fileID: 8061192194127423582, guid: 7b6ad8b22e0386f429c98970225e1d9d, type: 3}
+  spawnInterval: 2
+  largeurSpawn: 8
 --- !u!4 &762008959
 Transform:
   m_ObjectHideFlags: 0
@@ -1058,7 +1080,7 @@ Transform:
   m_GameObject: {fileID: 762008957}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.33, y: 3.53, z: 0}
+  m_LocalPosition: {x: 0, y: 6.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
