@@ -12,7 +12,7 @@ public class EnnemiTireur : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        tempsPasse += Time.DeltaTime;
+        tempsPasse += Time.deltaTime;
 
         if (tempsPasse >= intervalleTir)
         {
@@ -24,6 +24,6 @@ public class EnnemiTireur : MonoBehaviour
     private void Tirer()
     {
         //Crée une copie du projectile au point de tir
-        Instanciate(projectile, pointTir.position, Quaternion.identity);
+        Instantiate(projectile, pointTir.position, Quaternion.identity);
     }
 }

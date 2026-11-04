@@ -108,7 +108,6 @@ GameObject:
   - component: {fileID: 1770420050969747396}
   - component: {fileID: 7905809542377359420}
   - component: {fileID: 5553365461935578095}
-  - component: {fileID: 2840327062435526803}
   m_Layer: 7
   m_Name: Ennemi_2
   m_TagString: Enemy
@@ -250,19 +249,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnnemiRegardeJoueur
   visuel: {fileID: 6843799855204582809}
---- !u!114 &2840327062435526803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6844088133870204604}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce575f97a2774e0eb01d5b8fbebbff3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnnemiTeinte
-  teinte: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &7140169812249025971
 GameObject:
   m_ObjectHideFlags: 0
@@ -273,6 +259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6843799855204582809}
   - component: {fileID: 522452175150937506}
+  - component: {fileID: 1554866448743488036}
   m_Layer: 7
   m_Name: Visuel
   m_TagString: Untagged
@@ -355,6 +342,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &1554866448743488036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7140169812249025971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce575f97a2774e0eb01d5b8fbebbff3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnnemiTeinte
+  teinte: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &8535004818521897662
 GameObject:
   m_ObjectHideFlags: 0
