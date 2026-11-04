@@ -12,7 +12,7 @@ public class EnnemiTireur : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        tempsPasse += Time.deltaTime;
+        tempsPasse += Time.DeltaTime;
 
         if (tempsPasse >= intervalleTir)
         {

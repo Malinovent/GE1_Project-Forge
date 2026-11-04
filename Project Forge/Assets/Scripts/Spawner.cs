@@ -24,7 +24,7 @@ public class Spawner : MonoBehaviour
         int index = Random.Range(0, spawnObjets.Length + 1);
 
         //Choisit une position X au hasard en haut de l'écran
-        float x = Random.Range(-largeurSpawn / 2, largeurSpawn / 2);
+        int x = Random.Range(-largeurSpawn / 2, largeurSpawn / 2);
         Vector3 position = transform.position + new Vector3(x, 0, 0);
 
         Instantiate(spawnObjets[index], position, Quaternion.identity);
