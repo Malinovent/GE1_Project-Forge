@@ -8,7 +8,7 @@ public class EnnemiTeinte : MonoBehaviour
 
     void Start()
     {
-        SpriteRenderer spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.color = teinte;
     }
 }

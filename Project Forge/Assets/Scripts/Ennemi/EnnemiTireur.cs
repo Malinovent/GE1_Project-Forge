@@ -24,6 +24,6 @@ public class EnnemiTireur : MonoBehaviour
     private void Tirer()
     {
         //Crée une copie du projectile au point de tir
-        Instantiate(projectile, pointTir.position, Quaternion.identity);
+        Instanciate(projectile, pointTir.position, Quaternion.identity);
     }
 }

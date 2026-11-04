@@ -21,7 +21,7 @@ public class Spawner : MonoBehaviour
     private void Spawn()
     {
         //Choisit un objet au hasard dans la liste
-        int index = Random.Range(0, spawnObjets.Length);
+        int index = Random.Range(0, spawnObjets.Length + 1);
 
         //Choisit une position X au hasard en haut de l'écran
         float x = Random.Range(-largeurSpawn / 2, largeurSpawn / 2);

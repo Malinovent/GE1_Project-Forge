@@ -68,6 +68,10 @@ PrefabInstance:
       propertyPath: intervalleTir
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7905809542377359420, guid: af30a109c95406640b333bfbd0f02093, type: 3}
+      propertyPath: projectile
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

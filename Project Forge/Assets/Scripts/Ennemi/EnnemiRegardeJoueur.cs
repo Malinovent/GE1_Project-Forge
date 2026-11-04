@@ -21,12 +21,6 @@ public class EnnemiRegardeJoueur : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Pas de joueur à regarder
-        if (joueur == null)
-        {
-            return;
-        }
-
         //Direction de l'ennemi vers le joueur
         Vector3 direction = joueur.position - visuel.position;
 
