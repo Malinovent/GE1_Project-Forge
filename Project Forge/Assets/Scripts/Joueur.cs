@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Joueur : MonoBehaviour
 {
@@ -11,8 +12,13 @@ public class Joueur : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene(0);
+        }
+
         //Haut
-        if(Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W))
             transform.position += new Vector3(0, vitesse, 0);
         
         //Bas
