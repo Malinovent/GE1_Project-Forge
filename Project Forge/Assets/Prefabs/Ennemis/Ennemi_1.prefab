@@ -156,6 +156,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Vie
   vieMax: 5
+  audioClip: {fileID: 8300000, guid: 2ff8bda697de13a47902148edce16dd8, type: 3}
+  SFX: {fileID: 8782749758648806767, guid: 41454e6af51dbb34cbe699b74aac8ab7, type: 3}
 --- !u!114 &291419411695478861
 MonoBehaviour:
   m_ObjectHideFlags: 0

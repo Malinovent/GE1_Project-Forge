@@ -3,6 +3,8 @@ using UnityEngine;
 public class Vie : MonoBehaviour
 {
     [SerializeField] private int vieMax = 5;
+    [SerializeField] private AudioClip audioClip;
+    [SerializeField] private GameObject SFX;
 
     private int vieActuelle;
 
@@ -24,6 +26,12 @@ public class Vie : MonoBehaviour
 
         if(vieActuelle <= 0)
         {
+            GameObject sfx = Instantiate(SFX, transform.position, Quaternion.identity);
+
+            AudioSource audioSource = sfx.GetComponent<AudioSource>();
+
+            audioSource.clip = audioClip;
+            audioSource.Play();
             Dispose();
         }
     }
